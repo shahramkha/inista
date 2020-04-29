@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+ <head>
+      <title>Login/SignUp</title>
+       <link rel="stylesheet" href="style1.css">
+      
+    </head>
+    <body>
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                  <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                  <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+                <div class="social-icons">
+                    <a href="google.html"><img src="imag.jpg" alt="google" height="30" width="10"></a>
+                    <a href="facebook.html"><img src="download (2).jpg" alt="facebook" height="30" width="10" ></a>
+                    <!-- <a href="#"><img src="download.png" alt="twitter" height="30" width="10"></a> -->
+                </div>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Name" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <br><br>
+                    <h6><a href="password.html" >Forgot Your Password?</a></h6>
+                     <input type="checkbox" class="check-box"><span>Remember Password</span>
+                    <br><br><button type="Submit" class="submit-btn">Log In</button>
+                    
+                </form>
+                <form id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder=" Enter User Name" required>
+                    <input type="email" class="input-field" placeholder="Enter Email " required>
+                    <input type="text" class="input-field" placeholder=" Set Password" required>
+                    <br><input type="checkbox" class="check-box"><span><a href="password.html" >I agree to the Terms & Conditions</a></span>
+                    <br><br><button type="Submit" class="submit-btn">Register</button>
+                    
+                </form>
+                </div>
+                </div>
+  
+<script src="../Login/java.js"></script> 
+    </body>
+</html>
